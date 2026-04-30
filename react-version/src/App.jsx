@@ -73,7 +73,7 @@ function App() {
         <ClearAll clear={clearAll}/>
         <TodoInput onAddTask={addTask}/>
         <TodoList list={filteredTasks} onDelete={removeTask} onToggle={toggleTaskState} onEdit={editTask}/>
-        <MsgBox isEmpty={tasks.length === 0} noCompleted={tasks.every(t => !t.completed)} />
+        <MsgBox isEmpty={tasks.length === 0} noCompleted={tasks.every(t => !t.completed) && filterType === "done"} />
 
         <div className="footer">
             <span id="task-left">{tasksLeft} Tasks left!</span>
