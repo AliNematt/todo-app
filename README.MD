@@ -110,15 +110,15 @@ npm run preview  # پیش‌نمایش build
 ```bash
 git clone https://github.com/AliNematt/todo-app.git
 cd todo-app
-```
 # باز کردن نسخه Vanilla JS
-```cd vanilla-js```
+
+cd vanilla-js
 # index.html رو با مرورگر باز کن
 
 # یا نسخه OOP
-```cd vanilla-js-oop```
+cd vanilla-js-oop
 # index.html رو با مرورگر باز کن
-
+```
 ### نسخه React
 
 ```bash
