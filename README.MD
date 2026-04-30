@@ -1,4 +1,5 @@
 # 📝 Todo App - سه نسخه پیاده‌سازی
+# 📝 Todo App - سه نسخه پیاده‌سازی
 
 یک اپلیکیشن Todo List مدرن و زیبا با سه نسخه مختلف پیاده‌سازی
 
@@ -19,13 +20,21 @@
 - ✅ کاملاً Responsive
 - ✅ پشتیبانی از زبان فارسی
 
+## 📸 اسکرین‌شات‌ها
+
+### نسخه React
+![React Version](screenshots/Screenshot-react.png)
+
+### نسخه Vanilla JavaScript
+![Vanilla JS Version](screenshots/Screenshot-vanilla.png)
+
 ## 🚀 نسخه‌های موجود
 
 ### 1️⃣ Vanilla JavaScript
 پیاده‌سازی ساده با JavaScript خالص
 ```bash
 cd vanilla-js
-# فقط index.html رو باز کن
+# فقط index.html رو با مرورگر باز کن
 
 **تکنولوژی‌ها:**
 - HTML5
@@ -39,7 +48,7 @@ cd vanilla-js
 
 bash
 cd vanilla-js-oop
-# فقط index.html رو باز کن
+# فقط index.html رو با مرورگر باز کن
 
 **تکنولوژی‌ها:**
 - HTML5
@@ -97,7 +106,7 @@ npm run preview  # پیش‌نمایش build
 
 bash
 # Clone کردن پروژه
-git clone https://github.com/YOUR_USERNAME/todo-app.git
+git clone https://github.com/AliNematt/todo-app.git
 cd todo-app
 
 # باز کردن نسخه Vanilla JS
@@ -153,11 +162,6 @@ npm run dev
 - Props & State Management
 - Vite HMR (Hot Module Replacement)
 
-## 📸 اسکرین‌شات‌ها
-
-
-قرار دادن اسکرین‌شات‌ها در فولدر screenshots/
-
 ## 🤝 مشارکت
 
 1. Fork کنید
@@ -172,6 +176,8 @@ npm run dev
 
 ## 👨‍💻 توسعه‌دهنده
 
+**Ali Nemat**
+
 - GitHub: [@AliNematt](https://github.com/AliNematt)
 - Email: alinemat.webdesign@gmail.com
 - Website: [Website](https://alinemat.ir)
@@ -180,33 +186,9 @@ npm run dev
 
 - طراحی الهام گرفته از مدرن‌ترین UI/UX ترندها
 - فونت فارسی: [Vazirmatn](https://github.com/rastikerdar/vazirmatn)
+- در توسعه استایل و نگارش متن README از Claude Sonnet 4.6 استفاده شده است.
 
 ---
 
 ⭐ اگر این پروژه رو دوست داشتید، یک Star بدید!
 
-
-## مرحله 4: دستورات Git
-
-```bash
-# 1. Initialize Git (اگر قبلاً نکردی)
-git init
-
-# 2. اضافه کردن فایل‌ها
-git add .
-
-# 3. اولین Commit
-git commit -m "🎉 Initial commit: Add three versions of Todo App
-
-- Add Vanilla JS version
-- Add Vanilla JS OOP version  
-- Add React + Vite version
-- Add README.md with full documentation
-- Add .gitignore"
-
-# 4. اضافه کردن Remote Repository
-git remote add origin https://github.com/AliNematt/todo-app.git
-
-# 5. Push کردن
-git branch -M main
-git push -u origin main
