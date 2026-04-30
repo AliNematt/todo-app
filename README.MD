@@ -34,8 +34,8 @@
 پیاده‌سازی ساده با JavaScript خالص
 ```bash
 cd vanilla-js
-```
 # فقط index.html رو با مرورگر باز کن
+```
 
 **تکنولوژی‌ها:**
 - HTML5
@@ -49,8 +49,8 @@ cd vanilla-js
 
 ```bash
 cd vanilla-js-oop
-```
 # فقط index.html رو با مرورگر باز کن
+```
 
 **تکنولوژی‌ها:**
 - HTML5
