@@ -1,4 +1,4 @@
-# 📝 Todo App - سه نسخه پیاده‌سازی
+
 # 📝 Todo App - سه نسخه پیاده‌سازی
 
 یک اپلیکیشن Todo List مدرن و زیبا با سه نسخه مختلف پیاده‌سازی
@@ -34,6 +34,7 @@
 پیاده‌سازی ساده با JavaScript خالص
 ```bash
 cd vanilla-js
+```
 # فقط index.html رو با مرورگر باز کن
 
 **تکنولوژی‌ها:**
@@ -46,8 +47,9 @@ cd vanilla-js
 ### 2️⃣ Vanilla JavaScript - OOP
 پیاده‌سازی شی‌گرا با معماری تمیز
 
-bash
+```bash
 cd vanilla-js-oop
+```
 # فقط index.html رو با مرورگر باز کن
 
 **تکنولوژی‌ها:**
@@ -67,11 +69,11 @@ cd vanilla-js-oop
 ### 3️⃣ React + Vite
 نسخه مدرن با React و Vite
 
-bash
+```bash
 cd react-app
 npm install
 npm run dev
-
+```
 **تکنولوژی‌ها:**
 - React 18+
 - Vite (Fast Build Tool)
@@ -86,11 +88,11 @@ npm run dev
 - Custom Hooks برای مدیریت state
 
 **اسکریپت‌های موجود:**
-bash
+```bash
 npm run dev      # اجرای development server
 npm run build    # ساخت نسخه production
 npm run preview  # پیش‌نمایش build
-
+```
 ## 🎨 طراحی UI/UX
 
 - **Glassmorphism Effect**: شیشه‌ای و مدرن
@@ -100,34 +102,26 @@ npm run preview  # پیش‌نمایش build
 - **Custom Scrollbar**: اسکرول‌بار سفارشی
 - **Responsive Design**: سازگار با موبایل و تبلت
 
-## 📸 اسکرین‌شات‌ها
-
-### نسخه React
-![React Version](screenshots/Screenshot-react.png)
-
-### نسخه Vanilla JavaScript
-![Vanilla JS Version](screenshots/Screenshot-vanilla.png)
-
 ## 📦 نصب و راه‌اندازی
 
 ### نسخه‌های Vanilla JS
 
-bash
 # Clone کردن پروژه
+```bash
 git clone https://github.com/AliNematt/todo-app.git
 cd todo-app
-
+```
 # باز کردن نسخه Vanilla JS
-cd vanilla-js
+```cd vanilla-js```
 # index.html رو با مرورگر باز کن
 
 # یا نسخه OOP
-cd vanilla-js-oop
+```cd vanilla-js-oop```
 # index.html رو با مرورگر باز کن
 
 ### نسخه React
 
-bash
+```bash
 # رفتن به فولدر React
 cd react-app
 
@@ -136,8 +130,8 @@ npm install
 
 # اجرای development server
 npm run dev
-
 # باز کردن http://localhost:5173
+```
 
 ## 🛠️ تکنولوژی‌های استفاده شده
 
