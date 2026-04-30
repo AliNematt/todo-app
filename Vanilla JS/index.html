@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Any tasks for today?</h1>
+            <div class="date">Tuesday, March 10, 2026</div>
+        </header>
+
+        <form class="input-group" id="form">
+            <input type="text" placeholder="َAdd New Task ..." id="task">
+            <input type="submit" class="add-btn" id="add-btn" value="+">
+        </form>
+
+        <ul class="todo-list">
+            <p id="empty-message" class="msghidden">No completed tasks found!</p>
+            <p id="notask-message" class="msghidden">Any tasks to add ? ... </p>
+        </ul>
+
+        <div class="footer">
+            <span id="task-left"></span>
+            <div class="filters">
+                <span class="active" data-filter="all">All</span>
+                <span data-filter="pending">Pending</span>
+                <span data-filter="done">Done</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
