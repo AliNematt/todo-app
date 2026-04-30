@@ -100,6 +100,14 @@ npm run preview  # پیش‌نمایش build
 - **Custom Scrollbar**: اسکرول‌بار سفارشی
 - **Responsive Design**: سازگار با موبایل و تبلت
 
+## 📸 اسکرین‌شات‌ها
+
+### نسخه React
+![React Version](screenshots/Screenshot-react.png)
+
+### نسخه Vanilla JavaScript
+![Vanilla JS Version](screenshots/Screenshot-vanilla.png)
+
 ## 📦 نصب و راه‌اندازی
 
 ### نسخه‌های Vanilla JS
