@@ -91,13 +91,21 @@ npm run preview  # پیش‌نمایش build
 - **Custom Scrollbar**: اسکرول‌بار سفارشی
 - **Responsive Design**: سازگار با موبایل و تبلت
 
+## 📸 اسکرین‌شات‌ها
+
+### نسخه React
+![React Version](screenshots/Screenshot-react.png)
+
+### نسخه Vanilla JavaScript
+![Vanilla JS Version](screenshots/Screenshot-vanilla.png)
+
 ## 📦 نصب و راه‌اندازی
 
 ### نسخه‌های Vanilla JS
 
 bash
 # Clone کردن پروژه
-git clone https://github.com/YOUR_USERNAME/todo-app.git
+git clone https://github.com/AliNematt/todo-app.git
 cd todo-app
 
 # باز کردن نسخه Vanilla JS
@@ -152,11 +160,6 @@ npm run dev
 - Conditional Rendering
 - Props & State Management
 - Vite HMR (Hot Module Replacement)
-
-## 📸 اسکرین‌شات‌ها
-
-
-قرار دادن اسکرین‌شات‌ها در فولدر screenshots/
 
 ## 🤝 مشارکت
 
